@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tag audio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <h1 style="text-align: center">Referências HTML5</h1>
+
+            <div class="HomeSobre">
+                <p><a href="index.html">Home</a> | <a href="sobre.html">Sobre</a></p>
+            </div>
+        </header>
+        <section>
+
+            <div>
+                <h2>Tag HTML &lt;audio&gt;</h2>
+                <h3>Exemplo</h3>
+                <p>Reproduz um arquivo de som:</p>
+                <div class="codeBox">
+<pre><code>                   
+&lt;audio controls&gt;
+    &lt;source src="horse.ogg" type="audio/ogg"&gt;
+    &lt;source src="horse.mp3" type="audio/mpeg"&gt;
+&lt;/audio&gt;
+
+</code></pre>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>Definição e Uso</h2>
+                <p>A tag &lt;audio&gt; é usada para incorporar conteúdo de som em um documento, como música ou outros fluxos de áudio.</p>
+                <p>A tag &lt;audio&gt; contém uma ou mais &lt;source&gt;tags com diferentes fontes de áudio. O navegador escolherá a primeira fonte que suporta.</p>
+                <p>O texto entre as tags &lt;audio&gt; e &lt;/audio&gt;só será exibido em navegadores que não suportam a tag &lt;audio&gt;.
+                </p>
+                <p>Existem três formatos de áudio suportados em HTML: MP3, WAV e OGG.</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Formato de áudio e suporte do navegador</h2>
+
+                <table class="tabelaTags">
+                    <thead>
+                        <tr>
+                            <th>Browser</th>
+                            <th>MP3</th>
+                            <th>WAV</th>
+                            <th>OGG</th>
+                        </tr>
+                    </thead>
+                    <tbody class="nthchild">
+                        <tr>
+                            <td>Edge / IE</td>
+                            <td>SIM</td>
+                            <td>NÃO</td>
+                            <td>NÃO</td>
+                        </tr>                                 
+                        <tr>
+                            <td>Chrome</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                        </tr>
+                        <tr>
+                            <td>Firefox</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                        </tr>
+                        <tr>
+                            <td>Safari</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                            <td>NÃO</td>
+                        </tr>
+                        <tr>
+                            <td>Opera</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                            <td>SIM</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <h2>Dicas e Notas</h2>
+                <p><b>Dica:</b> Para arquivos de vídeo, use a tag &lt;video&gt;.</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Atributos</h2>
+
+                <table class="tabelaTags">
+                    <thead>
+                        <tr>
+                            <th>Atributo</th>
+                            <th>Valor</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody class="nthchild">
+                        <tr>
+                            <td>autoplay</td>
+                            <td>autoplay</td>
+                            <td>Especifica que o aúdio vai reproduzir assim que ele estiver pronto.</td>
+                        </tr>                                 
+                        <tr>
+                            <td>controls</td>
+                            <td>controls</td>
+                            <td>Especifica que os controles de aúdio devem ser mostrado (tais como o botão de play/pause).</td>
+                        </tr>
+                        <tr>
+                            <td>loop</td>
+                            <td>loop</td>
+                            <td>Especifica que o aúdio vai começar a tocar novamente, toda vez em que ele terminar.</td>
+                        </tr>
+                        <tr>
+                            <td>muted</td>
+                            <td>muted</td>
+                            <td>Especifica que a saída de áudio deve ser silenciada.</td>
+                        </tr>
+                        <tr>
+                            <td>preload</td>
+                            <td>auto<br>
+                                metadata<br>
+                                none</td>
+                            <td>Especifica se e como o autor acha que o áudio deve ser carregado quando a página carrega.</td>
+                        </tr>
+                        <tr>
+                            <td>src</td>
+                            <td>URL</td>
+                            <td>Especifica a URL do arquivo de aúdio.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+            <div>
+                <h2>Atributos Globais</h2>
+                <p>A tag &lt;audio&gt; também suporta Atributos Globais em HTML</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Atributos de Evento</h2>
+                <p>A tag &lt;audio&gt; também suporta Atributo de Eventos em HTML.</p>
+            </div>       
+        </section>
+        <footer class="rodape">
+            <div class="HomeSobre">
+                <p><a href="index.html">Home</a> | <a href="sobre.html">Sobre</a></p>
+            </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tag thead</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <h1 style="text-align: center">Referências HTML5</h1>
+
+            <div class="HomeSobre">
+                <p><a href="index.html">Home</a> | <a href="sobre.html">Sobre</a></p>
+            </div>
+        </header>
+        <section>
+
+            <div>
+                <h2>Tag HTML &lt;thead&gt;</h2>
+                <h3>Exemplo</h3>
+                <p>Uma tabela HTML com os elementos &lt;thead&gt;, &lt;tbody&gt; e &lt;tfoot&gt;:</p>
+                <div class="codeBox">
+<pre><code>                   
+
+
+&lt;table&gt;
+
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Mes&lt;/th&gt;
+            &lt;th&gt;Economia&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+  
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Janeiro&lt;/td&gt;
+            &lt;td&gt;$100&lt;/td&gt;
+        &lt;/tr&gt;
+
+        &lt;tr&gt;
+        &lt;td&gt;Fevereiro&lt;/td&gt;
+        &lt;td&gt;$80&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+
+    &lt;tfoot&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Soma&lt;/td&gt;
+            &lt;td&gt;$180&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tfoot&gt;
+
+&lt;/table&gt;
+
+
+
+</code></pre>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h2>Definição e Uso</h2>
+                <p>A tag &lt;thead&gt; é usada para agrupar p conteúdo do cabeçalho de uma tabela HTML.</p>
+                <p>A tag &lt;caption&gt; é usada em conjunto com com as tags &lt;tbody&gt; e &lt;tfoot&gt; para especificar cada parte da tabela (cabeçalho, corpo e rodapé).</p>
+                <p>Os navegadores podem usar estes elementos para permitir a rolagem do corpo da tabela independentemente do cabeçalho e rodapé. Além disso, ao imprimir uma tabela grande que abrange várias páginas, esses elementos podem permitir que o cabeçalho e o rodapé da tabela sejam impressos na parte superior e inferior de cada página.</p>
+                <p><b>Nota:</b> O elemento &lt;thead&gt; deve conter uma ou mais tags &lt;tr&gt;</p>
+                <p>A tag &lt;thead&gt; deve ser usada no seguinte contexto: Como filho de um elemento &lt;table&gt;, após qualquer elemento &lt;caption&gt; e &lt;colgrup&gt; e antes de qualquer elemento &lt;tbody&gt;, &lt;tfoot&gt; e &lt;tr&gt;.</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Suporte dos navegaodres</h2>
+
+               
+                <table class="tabelaTags">
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Chrome</th>
+                            <th>Edge</th>
+                            <th>Firefox</th>
+                            <th>Safari</th>
+                            <th>Opera</th>
+                        </tr>
+                    </thead>
+                    <tbody class="nthchild">
+                        <tr>
+                            <td>&lt;thead&gt;</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                            <td>Sim</td>
+                           
+                        </tr>                           
+                    </tbody>
+                </table>
+            </div>
+        
+            <hr>
+            <div>
+                <h2>Atributos Globais</h2>
+                <p>A tag &lt;thead&gt; também suporta Atributos Globais em HTML.</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Atributos de Evento</h2>
+                <p>A tag &lt;thead&gt; também suporta Atributo de Eventos em HTML.</p>
+            </div>    
+            <hr>
+            <div>
+                <h2>Configurações CSS predefinidas</h2>
+                <p>A maioria dos navegadores, por padrão, exibirá o elemento &lt;thead&gt; com os seguintes valores: </p>
+            
+               <div class="codeBox">
+                <pre><code>                   
+thead {
+
+    display: table-header-group;
+    vertical-align:center;
+    border-color: inherit;
+
+    }
+
+                      
+                 </code></pre>
+               </div>
+            </div>   
+        </section>
+        <footer class="rodape">
+            <div class="HomeSobre">
+                <p><a href="index.html">Home</a> | <a href="sobre.html">Sobre</a></p>
+            </div>
+        </footer>
+</body>
+</html>
